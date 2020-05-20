@@ -5,7 +5,7 @@
   gather_facts: no
 
   vars:
-    banner_message: oops, you ran this playbook without reading it first!
+    banner_message: Go Bears!
 
   tasks:
   - name: configure {{ inventory_hostname }} hostname
@@ -34,4 +34,4 @@
   - name: add username and password to router
     ios_config:
       lines:
-        - username siduserXXX privilege 15 secret password
+        - username siduser109 privilege 15 secret password
